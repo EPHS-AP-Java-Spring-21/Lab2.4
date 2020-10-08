@@ -13,7 +13,7 @@ public class SummerTester
     //s.add(3);
     //s.add(7);
 
-    //System.out.println( default.getSum() );
+    //System.out.println( s.getSum() );
     
     //System.out.println( s.toString() );
   }
