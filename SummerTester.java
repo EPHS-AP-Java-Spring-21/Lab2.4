@@ -2,11 +2,11 @@ public class SummerTester
 {
   public static void main(String[] args)
   {
-    Summer default = new Summer();
-    System.out.println( default.getSum() );
+    Summer adder = new Summer();
+    System.out.println( adder.getSum() );
 
-    default.add(9);
-    System.out.println( default.getSum() );
+    adder.add(9);
+    System.out.println( adder.getSum() );
 
     //Summer s = new Summer(5);
     
