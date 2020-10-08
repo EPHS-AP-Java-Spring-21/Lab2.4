@@ -70,7 +70,6 @@ When you run your code it should output
 ```
 0
 9
-5
 15
 ```
 
