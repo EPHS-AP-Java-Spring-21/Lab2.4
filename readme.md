@@ -16,11 +16,11 @@ If you run the starter code, it should output
 ```
 Looking at the uncommented code in the SummerTester.java file
 ```
-Summer default = new Summer();
-System.out.println( default.getSum() );
+Summer adder = new Summer();
+System.out.println( adder.getSum() );
 
-default.add(9);
-System.out.println( default.getSum() );
+adder.add(9);
+System.out.println( adder.getSum() );
 ```
 You can see that this code creates an instance of a Summer object, then outputs the initial value of sum which is 0.
 
@@ -48,7 +48,7 @@ These changes you made just made will cause an error in the SummerTester.java fi
 
 In the SummerTester.java file, look for the code:
 ```
-Summer default = new Summer();
+Summer adder = new Summer();
 ```
 Change this line so that it passes the argument 0 to the constructor of the Summer class.
 
@@ -72,7 +72,7 @@ Summer s = new Summer(5);
 s.add(3);
 s.add(7);
 
-System.out.println( default.getSum() );
+System.out.println( s.getSum() );
 ```
 When you run your code it should output
 ```
