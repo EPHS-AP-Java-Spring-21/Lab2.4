@@ -44,6 +44,14 @@ Remember, a constructor is just like a regular method except for the following d
 - The name of the constructor must match the name of the class (spelling and capitalization matter)
 - Constructors do not have a return type (not even void!)
 
+These changes you made just made will cause an error in the SummerTester.java file. You need to make a change in that file so that your code will compile.
+
+In the SummerTester.java file, look for the code:
+```
+Summer default = new Summer();
+```
+Change this line so that it passes the argument 0 to the constructor of the Summer class.
+
 Make sure your code compiles.
 
 To test your code, you will need to uncomment some lines from the SummerTester.java files.
